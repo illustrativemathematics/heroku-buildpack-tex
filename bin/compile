@@ -14,7 +14,7 @@ CONF_DIR="$BIN_DIR/../conf"
 source "$BIN_DIR/utils"
 
 MOST_CURRENT_REPOSITORY="http://mirror.ctan.org/systems/texlive/tlnet"
-ARCHIVED_REPOSITORY_MIRROR="ftp://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2017/tlnet-final"
+ARCHIVED_REPOSITORY_MIRROR="ftp://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2020/tlnet-final"
 TEXLIVE_REPOSITORY=$ARCHIVED_REPOSITORY_MIRROR
 CUSTOM_REPOSITORY_FILE="texlive.repository"
 CUSTOM_REPOSITORY_PATH="$BUILD_DIR/$CUSTOM_REPOSITORY_FILE"
