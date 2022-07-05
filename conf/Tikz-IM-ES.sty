@@ -807,3 +807,24 @@
         }
   }
 }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% grade 2 number line jumps
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand\ESJumpMM[4]{
+    \draw[thin,#3] (#1,.15in) parabola[parabola height=.28in] (#2,.15in);
+    \node[anchor=south] at (.5*#1+.5*#2,.41in){#4};
+    }
+\newcommand\ESJumpmM[4]{
+    \draw[thin,#3] (#1,.1in) parabola[parabola height=.31in] (#2,.15in);
+    \node[anchor=south] at (.5*#1+.5*#2,.41in){#4};
+    }
+\newcommand\ESJumpMm[4]{
+    \draw[thin,#3] (#1,.15in) parabola[parabola height=.31in] (#2,.1in);
+    \node[anchor=south] at (.5*#1+.5*#2,.41in){#4};
+    }
+\newcommand\ESJumpmm[4]{
+    \draw[thin,#3] (#1,.1in) parabola[parabola height=.34in] (#2,.1in);
+    \node[anchor=south] at (.5*#1+.5*#2,.41in){#4};
+    }
